@@ -1,0 +1,40 @@
+<!-- cspell:words browserconfig startpages -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Term-tree</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="./static/css/style.css" />
+  <script src="./static/js/script.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <div class="prompt">
+      [<span data-Name>startpages</span>@<span>cyberspace</span> ~]$ tree
+    </div>
+    <div class="tree">
+      <h1>.</h1>
+      <ul id="list">
+        <li>
+          <h1>[error]</h1>
+        </li>
+      </ul>
+    </div>
+    <div class="prompt">
+      [<span data-Name>startpages</span>@<span>cyberspace</span> ~]$
+      DuckDuckGo
+    </div>
+    <form action="https://duckduckgo.com/" method="GET" autocomplete="off">
+      <h1>search:&nbsp;</h1>
+      <!-- <input type="text" name="q" id="search" wrap="hard" autofocus> -->
+      <textarea type="text" name="q" id="search" wrap="hard" autofocus></textarea>
+    </form>
+  </main>
+</body>
+
+</html>
